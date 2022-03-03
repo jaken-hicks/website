@@ -5,7 +5,7 @@
       <script src="https://kit.fontawesome.com/3276ec10bc.js" crossorigin="anonymous"></script>
       <title>Jaken Hicks </title>
       <link rel="stylesheet" href="/css/all.min.css">
-      <link rel="stylesheet" href="stylish.css">
+      <link rel="stylesheet" href="style.css">
     </head>
     <body>
       <div class="wrapper">
@@ -28,9 +28,13 @@
         <section class="content">
           <div class="profile">
             <class="profile-img">
-            <h1>Jaken Hicks</h1>
-            <h5>Computer Science Student at Western Illinois University</h5>
-            <p>I am in my junior year at WIU working on my bachelor's in computer science with a minor in math. I also work as a technical assistant for the university technology department. Currently, I am seeking an intern position so that I can grow my skills and further my experience in the workplace. Feel free to click the icons below to email, connect on LinkedIn, or view my GitHub page.</p>
+            <h1><b>Jaken 
+                <br>Hicks</b>
+            </h1>
+            <h5>Computer Science Student
+            <br>Western Illinois University
+            <br><br><br><br><br><br><br><br><br><br><br><br>
+            </h5>
 
           <ul>
             <li><a href="https://www.linkedin.com/in/jaken-hicks/"><i class="fab fa-linkedin" aria-hidden=true></i></a></li>
@@ -39,6 +43,149 @@
             <li><a href="https://github.com/jaken-hicks"><i class="fab fa-github" aria-hidden=true></i></a></li>
           </ul>
           </div>
+
+          <h3><div id="typedtext"></h3>
+          <div class="resume">
+
+              
+
+              <h4 id= "education"> <br><br> Education</h4>
+              <h2>Western Illinois University (2019-2023)</h2>
+                <ul>
+                    <li>B.S. in Computer Science with a Mathematics minor (3.66 GPA)</li>
+                    <li>Member of Centennial Honors College</li>
+                    <li>University Union Board V.P. of Finance</li>
+                    <li>Homecoming Committee Secretary</li>
+                    <li>Admissions Rocky Pal for "Experience Western" programs</li>
+                </ul>
+
+               <h4 id= "work">Work Experience</h4>
+               <h2>Technical Assistant (Feb. 2021 to present) <br>Western Illinois University</h2>
+                <ul>
+                    <li>Manage and moderate the university's computer labs being ready to assist students or faculty</li>
+                    <li>Assisting with various technical issues, submitting tickets, resetting passwords, etc</li>
+                    <li><b>Key Achievement:</b> Improving and demonstrating a strong work ethic along with IT and communication skills</li>
+                </ul>
+
+               <h2>Peer Mentor (Aug. 2020 to Dec. 2020) <br>Western Illinois University</h2> 
+                <ul>
+                    <li>Served as a mentor for freshman during their first semester at Western</li>
+                    <li>Participated as a member of an introductory freshman course (U100)</li>
+                    <li><b>Key Achievement:</b> Helped to guide new students in adjusting to and engaging with college life</li>
+                </ul>
+
+               <h2>Softball Field Maintenance Associate (2014 to 2019) <br>City of Ottawa</h2> 
+                <ul>
+                    <li>Prepared and maintained softball fields 4 days a week through spring, summer, and fall seasons</li>
+                    <li>Kept fields immaculate through trash pickup, bathroom cleaning, hosing fields, chalking lines, etc</li>
+                    <li><b>Key Achievement:</b> Began working at 14 and developed a strong work ethic</li>
+                </ul>
+                
+                <h4 id= "projects">Projects</h4>
+
+                <h2>Snake Game</h2>
+                 <ul>
+                     <li>Classic snake game programmed in Python</li>
+                     <li>Uses Turtle graphics package to create a simple and intuitive GUI</li>
+                 </ul>
+
+                <h2>Bingo Call Sheet <a href="https://uubingo.net/">(uubingo.net)</a></h2>
+                 <ul>
+                     <li>Website used during University Union Board bingo events to keep track of called numbers</li>
+                     <li>Made with HTML and CSS with a small amount of JavaScript</li>
+                 </ul> 
+
+                 <h2>Number Pad</h2>
+                  <ul>
+                      <li>Simple 0-9 GUI number pad programmed in Python, meant to simulate that of a modern cell phone</li>
+                      <li>Uses Tkinter graphics package for GUI and playsound for DTMF sound effects</li>
+                  </ul>
+
+                <h4 id= "skills">Skills</h4>
+
+                <h2>Python</h2>
+                 <ul>
+                     <li>Familiar with Python and comfortable with its syntax</li>
+                     <li>Coded most of my personal projects in Python due to preference</li>
+                 </ul>
+
+                <h2>Java</h2>
+                 <ul>
+                     <li>Familiar with Java and comfortable with its syntax</li>
+                     <li>Most of my courses have used Java, including Data Structures and Graphics Programming</li>
+                 </ul>
+                
+                <h2>HTML/CSS</h2>
+                 <ul>
+                     <li>Comfortable in creating simple web pages with HTML/CSS</li>
+                     <li>Learned HTML/CSS independently, created sites for a personal portfolio and for bingo</li>
+                 </ul>
+
+                <h2>Unix/Linux</h2>
+                 <ul>
+                     <li>Took a course on Linux, learned its various uses and applications</li>
+                     <li>Comfortable with using command line, editors, etc.</li>
+                 </ul>
+
+                <h2>SQL</h2>
+                 <ul>
+                     <li>Basic familiarity with commands in Microsoft SQL Server</li>
+                     <li>Learned basic SQL independently, used online resources with SQL Server Management Studio</li>
+                 </ul>
+
+                <h2>Tech Support/Ticketing</h2>
+                 <ul>
+                     <li>Experienced in providing basic tech support in computer labs and over the phone</li>
+                     <li>Comfortable with ticketing software (Request Tracker, SysAid) and Cisco phone software</li>
+                 </ul>
+
+
+          </div>
         </section>
+
+        <script type="text/javascript">
+
+            var aText = new Array(
+            "Hi, thanks for visiting my website. You can scroll down to access my information.", 
+            "The icons on the sidebar will lead to my LinkedIn, email, resume, and GitHub,",
+            "so please feel free to connect with me or view my projects in greater detail.",
+            );
+            var iSpeed = 50;
+            var iIndex = 0;
+            var iArrLength = aText[0].length;
+            var iScrollAt = 20;
+            
+            var iTextPos = 0;
+            var sContents = '';
+            var iRow;
+            
+            function typewriter()
+            {
+            sContents =  ' ';
+            iRow = Math.max(0, iIndex-iScrollAt);
+            var destination = document.getElementById("typedtext");
+            
+            while ( iRow < iIndex ) {
+            sContents += aText[iRow++] + '<br />';
+            }
+            destination.innerHTML = sContents + aText[iIndex].substring(0, iTextPos) + "_";
+            if ( iTextPos++ == iArrLength ) {
+            iTextPos = 0;
+            iIndex++;
+            if ( iIndex != aText.length ) {
+            iArrLength = aText[iIndex].length;
+            setTimeout("typewriter()", 500);
+            }
+            } else {
+            setTimeout("typewriter()", iSpeed);
+            }
+            }
+
+
+            typewriter();
+            
+        </script>
+
+
     </body>
   </html>
