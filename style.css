@@ -14,7 +14,7 @@ body{
   left: 0;
   top: 0;
   z-index: 5;
-  width: 450px;
+  width: 25%;
   height: 100%;
   background: rgba(84, 7, 156, 0.8);
   padding: 20px;
@@ -81,9 +81,9 @@ ul{
 
 
 .resume{
-    position: absolute;
     overflow-x: hidden;
-    left: 28.75%;
+    position: absolute;
+    left: 27.5%;
     top: 0%;
     z-index: 5;
     width: 70%;
