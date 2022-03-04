@@ -63,6 +63,8 @@ ul{
   padding: 0;
 }
 .profile li{
+  position: relative;
+  padding-top: 70%;
   display: inline-block;
   margin: 15px;
   list-style: none;
@@ -84,8 +86,8 @@ ul{
     left: 28.75%;
     top: 0%;
     z-index: 5;
-    width: 1170px;
-    height: 3150px;
+    width: 70%;
+    height: 425%;
     background: rgba(0, 0, 0, 0.8);
     padding: 0px;
     padding-left: 50px;
@@ -107,7 +109,7 @@ ul{
 
 h3{
     position:absolute;
-    left: 530px;
+    left: 35%;
     font-size: 20px;
     letter-spacing: 3px;
     justify-content: center;
